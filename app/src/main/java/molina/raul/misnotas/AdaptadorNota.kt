@@ -65,7 +65,7 @@ class AdaptadorNota: BaseAdapter {
     }
 
     private fun ubicacion(): String{
-        val album = File(context?.getExternalFilesDir(null))
+        val album = File(context?.getExternalFilesDir(null), "notas")
         if(!album.exists()){
             album.mkdir()
         }

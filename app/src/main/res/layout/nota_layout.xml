@@ -35,7 +35,7 @@
             android:layout_weight="1"/>
 
         <ImageView
-            android:id="@+id/btn_borror"
+            android:id="@+id/btn_borrar"
             android:layout_width="15pt"
             android:layout_height="15pt"
             android:layout_marginRight="10pt"
